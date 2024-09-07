@@ -6,7 +6,7 @@ let dataList = [
         abilities: 'Haki do Rei, Haki da Armadura, Haki da Observação, Gears(do 2 ao 5)',
         curiosity: 'A Gomu Gomu no Mi, a fruta do diabo que Luffy comeu, o transformou em um homem de borracha. Essa habilidade lhe concede poderes incríveis, mas também o impede de nadar. Além disso, o uso excessivo de seus poderes pode encurtar sua vida.',
         link: 'https://onepiece.fandom.com/pt/wiki/Monkey_D._Luffy',
-        tags: 'mugiwara d. monkey gear nika guerreiro tambores libertação libertacao',    
+        tags: 'd. monkey gear nika guerreiro tambores libertação libertacao mugiwara',    
     },
     {
         char: 'Roronoa Zoro',
@@ -15,7 +15,7 @@ let dataList = [
         abilities: 'Santoryu (Três Espadas), Haki da Armadura, Haki da Observação',
         curiosity: 'Zoro possui um senso de direção extremamente ruim, o que gera diversas situações cômicas nas aventuras da tripulação.',
         link: 'https://onepiece.fandom.com/pt/wiki/Roronoa_Zoro',
-        tags: 'espadachim santoryu kusanagi shusui wado ichimonji tres três espadas',
+        tags: 'espadachim santoryu kusanagi shusui wado ichimonji tres três espadas mugiwara',
     },
     {
         char: 'Nami',
@@ -24,7 +24,7 @@ let dataList = [
         abilities: 'Clima-Tact (bastão climático), Haki da Observação',
         curiosity: 'Nami tem medo de altura, o que é irônico considerando sua profissão.',
         link: 'https://onepiece.fandom.com/pt/wiki/Nami',
-        tags: 'navegadora clima tact mapa meteorologia laranja',
+        tags: 'navegadora clima tact mapa meteorologia laranja mugiwara',
     },
     {
         char: 'Usopp',
@@ -33,7 +33,7 @@ let dataList = [
         abilities: 'Kabuto (estilingue), diversas munições especiais, Haki da Observação',
         curiosity: 'Usopp possui uma imaginação fértil e costuma criar histórias fantásticas sobre suas aventuras.',
         link: 'https://onepiece.fandom.com/pt/wiki/Usopp',
-        tags: 'atirador kabuto sniper god usoland mentiroso guerreiro',
+        tags: 'atirador kabuto sniper god usoland mentiroso guerreiro mugiwara',
     },
     {
         char: 'Vinsmoke Sanji',
@@ -42,6 +42,6 @@ let dataList = [
         abilities: 'Diable Jambe (perna do diabo), habilidades culinárias excepcionais, Haki da Observação',
         curiosity: 'Sanji tem uma fraqueza por mulheres bonitas, o que o coloca em diversas situações embaraçosas.',
         link: 'https://onepiece.fandom.com/pt/wiki/Vinsmoke_Sanji',
-        tags: 'cozinheiro diable jambe all blue cavalheiro comida',
+        tags: 'cozinheiro diable jambe all blue cavalheiro comida mugiwara',
     }
 ]
