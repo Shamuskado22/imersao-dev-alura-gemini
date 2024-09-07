@@ -1,116 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
+:root {
+    --header-footer: #ffffff;
+    --title: #403434;
+    --boxshadow: #000000a6;
+    --boxshadow2: #0000003a;
+    --button: #456A51;
+    --buttonHover: #29332C;
+    --cardBg: #ffffffd7;
+    --aHover: #804A49
+}
+
 * {
     padding: 0;
     margin: 0;
 }
 
 body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    background: var(--aHover) url(../img/bg.jpg) right fixed;
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
-    font-family: "Titillium Web", sans-serif;
-    background-image: url(../img/bg-portrait.jpg);
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 header {
-    background-color: #ffffff;
-    color: #403434;
-    padding: 0.8rem;
-    margin-bottom: 1.5rem;
-    font-size: 0.9rem;
+    background-color: var(--header-footer);
+    color: var(--title);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.425);
+    font-size: 0.8em;
+    padding: 8px;
     text-align: center;
+    margin-bottom: 32px;
 }
 
-section {
+.search {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
 }
 
-section input {
+.search input {
     border: none;
-    margin-bottom: 1rem;
-    width: 20rem;
-    height: 1.5rem;
-    border-radius: 0.5rem;
-    padding: 0.7rem;
-    color: #403434;
-    font-size: 0.9rem;
-    box-shadow: 5px 5px 15px #000000a6;
+    margin: 0 16px 16px 16px;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 1em;
+    box-shadow: 5px 5px 10px var(--boxshadow);
 }
 
-section button {
+.search button {
     border: none;
-    border-radius: 0.5rem;
-    background-color: #456A51;
-    padding: 0.7rem;
-    color: #ffffff;
-    font-size: 0.9rem;
+    background-color: var(--button);
+    color: var(--header-footer);
+    margin: 0 112px;
+    padding: 10px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
+    box-shadow: 5px 5px 10px var(--boxshadow2);
+    transition: all 0.2s ease-in-out;
 }
 
-section button:active {
-    background-color: #29332C;
+.search button:active {
+    background-color: var(--buttonHover);
+    border: 1px solid var(--header-footer);
 }
 
 .result {
-    background-color: #ffffffd7;
+    height: 50vh;
+    overflow-y: auto;
 }
 
 .cardChar {
-    padding: 1.5rem;
-    font-size: 0.9rem;
-}
-
-.cardChar h3 {
-    margin-bottom: 1rem;
+    background-color: var(--cardBg);
+    padding: 16px;
+    margin-bottom: 16px;
 }
 
 .cardChar h2 a {
-    color: #403434;
+    color: var(--title);
     text-decoration: none;
 }
 
 .cardChar h2 a:active {
-    color: #804A49;
+    color: var(--aHover);
     text-decoration: underline;
 }
 
+.cardChar h3 {
+    margin-bottom: 16px;
+}
+
 .cardChar p {
-    margin-bottom: 0.65rem;
+    margin-bottom: 8px;
+    font-size: 0.85em;
+}
+
+#failMessage p {
+    margin: 0;
 }
 
 footer {
-    width: 100%;
-    background-color: #ffffff;
+    background-color: var(--header-footer);
+    font-size: 0.7em;
+    text-align: center;
     position: absolute;
     bottom: 0;
-    font-size: 0.6rem;
-    text-align: center;
+    width: 100vw;
+    padding: 8px 0;
 }
 
 footer a {
-    color: #403434;
+    color: var(--title);
     text-decoration: none;
 }
 
 footer a:active {
-    color: #804A49;
+    color: var(--aHover);
     text-decoration: underline;
-}
-
-@media screen and (min-with: 768px) {
-    body {
-        background-color: navy;
-        background-image: url(../img/bg-landscape.jpg);
-        background-size: contain;
-        background-attachment: fixed;
-    }
 }

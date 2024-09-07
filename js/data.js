@@ -1,0 +1,47 @@
+let dataList = [
+    {
+        char: 'Monkey D. Luffy',
+        affiliation: '(Piratas do Chapéu de Palha)',
+        description: 'Luffy cresceu em uma ilha pacífica, inspirado pela figura de Shanks, um pirata que perdeu um braço para salvar sua vida. A partir daquele momento, Luffy decidiu que seguiria os passos de Shanks e se tornaria um pirata.',
+        abilities: 'Haki do Rei, Haki da Armadura, Haki da Observação, Gears(do 2 ao 5)',
+        curiosity: 'A Gomu Gomu no Mi, a fruta do diabo que Luffy comeu, o transformou em um homem de borracha. Essa habilidade lhe concede poderes incríveis, mas também o impede de nadar. Além disso, o uso excessivo de seus poderes pode encurtar sua vida.',
+        link: 'https://onepiece.fandom.com/pt/wiki/Monkey_D._Luffy',
+        tags: 'mugiwara d. monkey gear nika guerreiro tambores libertação libertacao',    
+    },
+    {
+        char: 'Roronoa Zoro',
+        affiliation: '(Piratas do Chapéu de Palha)',
+        description: 'Zoro é um espadachim excepcional, com o sonho de se tornar o maior espadachim do mundo. Sua determinação e força de vontade são inigualáveis.',
+        abilities: 'Santoryu (Três Espadas), Haki da Armadura, Haki da Observação',
+        curiosity: 'Zoro possui um senso de direção extremamente ruim, o que gera diversas situações cômicas nas aventuras da tripulação.',
+        link: 'https://onepiece.fandom.com/pt/wiki/Roronoa_Zoro',
+        tags: 'espadachim santoryu kusanagi shusui wado ichimonji tres três espadas',
+    },
+    {
+        char: 'Nami',
+        affiliation: '(Piratas do Chapéu de Palha)',
+        description: 'Nami é a navegadora da tripulação e possui um profundo conhecimento sobre meteorologia. Seu sonho é desenhar um mapa completo do mundo.',
+        abilities: 'Clima-Tact (bastão climático), Haki da Observação',
+        curiosity: 'Nami tem medo de altura, o que é irônico considerando sua profissão.',
+        link: 'https://onepiece.fandom.com/pt/wiki/Nami',
+        tags: 'navegadora clima tact mapa meteorologia laranja',
+    },
+    {
+        char: 'Usopp',
+        affiliation: '(Piratas do Chapéu de Palha)',
+        description: 'Usopp é o atirador da tripulação e um mentiroso inveterado, mas com um coração de ouro. Seu sonho é se tornar um bravo guerreiro do mar.',
+        abilities: 'Kabuto (estilingue), diversas munições especiais, Haki da Observação',
+        curiosity: 'Usopp possui uma imaginação fértil e costuma criar histórias fantásticas sobre suas aventuras.',
+        link: 'https://onepiece.fandom.com/pt/wiki/Usopp',
+        tags: 'atirador kabuto sniper god usoland mentiroso guerreiro',
+    },
+    {
+        char: 'Vinsmoke Sanji',
+        affiliation: '(Piratas do Chapéu de Palha)',
+        description: 'Sanji é o cozinheiro da tripulação e um cavalheiro nato. Possui um profundo respeito pelas mulheres e um ódio visceral por qualquer forma de violência contra elas.',
+        abilities: 'Diable Jambe (perna do diabo), habilidades culinárias excepcionais, Haki da Observação',
+        curiosity: 'Sanji tem uma fraqueza por mulheres bonitas, o que o coloca em diversas situações embaraçosas.',
+        link: 'https://onepiece.fandom.com/pt/wiki/Vinsmoke_Sanji',
+        tags: 'cozinheiro diable jambe all blue cavalheiro comida',
+    }
+]
