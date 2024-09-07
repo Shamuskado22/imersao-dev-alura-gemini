@@ -37,7 +37,7 @@ Essa aplicação web te leva para um mergulho profundo no universo de One Piece!
 
 **Vamos juntos desvendar os mistérios de One Piece!** ‍☠️
 
-**[Seu nome ou nome da equipe]** Samuel Almeida
-**[Link para o repositório no GitHub]** https://github.com/Shamuskado22/
+**Desenvolvido por Samuel Almeida** 
+**[[Link para o repositório no GitHub](https://github.com/Shamuskado22/)]** 
 
 **#OnePiece #WebDev #JavaScript #HTML #CSS**
